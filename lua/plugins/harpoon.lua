@@ -10,6 +10,8 @@ return {
 
       vim.keymap.set("n", "<leader>h", ui.toggle_quick_menu, { desc = "Harpoon Toggle Quick Menu" })
 
+      vim.keymap.set("n", "<C-e>", ui.toggle_quick_menu, { desc = "Harpoon Toggle Quick Menu" })
+
       vim.keymap.set("n", "<leader>1", function()
         ui.nav_file(1)
       end, { desc = "Harpoon File 1" })
