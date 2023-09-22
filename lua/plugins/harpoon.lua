@@ -27,6 +27,26 @@ return {
       vim.keymap.set("n", "<leader>4", function()
         ui.nav_file(4)
       end, { desc = "Harpoon File 4" })
+
+      vim.keymap.set("n", "<leader>5", function()
+        ui.nav_file(5)
+      end, { desc = "Harpoon File 5" })
+
+      vim.keymap.set("n", "<leader>6", function()
+        ui.nav_file(6)
+      end, { desc = "Harpoon File 6" })
+
+      vim.keymap.set("n", "<leader>7", function()
+        ui.nav_file(7)
+      end, { desc = "Harpoon File 7" })
+
+      vim.keymap.set("n", "<leader>8", function()
+        ui.nav_file(8)
+      end, { desc = "Harpoon File 8" })
+
+      vim.keymap.set("n", "<leader>9", function()
+        ui.nav_file(9)
+      end, { desc = "Harpoon File 9" })
     end,
   },
   {
