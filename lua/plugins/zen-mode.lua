@@ -16,8 +16,8 @@ return {
         },
         plugins = {
           gitsigns = { enabled = false },
-          tmux = { enabled = false },
-          twilight = { enabled = false },
+          tmux = { enabled = true },
+          twilight = { enabled = true },
         },
       })
     end,
@@ -26,10 +26,6 @@ return {
     },
   },
   {
-    "shortcuts/no-neck-pain.nvim",
-    version = "*",
-    keys = {
-      { "<leader>Z", "<cmd>NoNeckPain<cr>", desc = "No Neck Pain" },
-    },
+    "folke/twilight.nvim",
   },
 }
